@@ -56,7 +56,7 @@ public class FilesZipTest {
         }
     }
 
-    @DisplayName("Чтение и проверка сожержимого csv файла")
+    @DisplayName("Чтение и проверка сожержимого xlsx файла")
     @Test
     void xlsxFileTes2() throws Exception {
         try (InputStream is = classLoader.getResourceAsStream("ZIP.zip")) {
